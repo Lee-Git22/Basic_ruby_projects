@@ -8,7 +8,7 @@ def stock_picker(stocks)
   # Iterate over each buy and sell index
   for buy_index in 0..stocks.length
     for sell_index in buy_index..stocks.length
-      # Calculate profit at current index
+      # Calculate profit at current index as integer
       current_profit = stocks[sell_index].to_i - stocks[buy_index].to_i
 
       # Update highest profit index pairing
