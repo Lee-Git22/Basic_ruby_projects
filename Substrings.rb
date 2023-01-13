@@ -1,7 +1,7 @@
 def substrings(string, dictionary)
   matches = {}
   
-  # Creates a case array for the string input 
+  # Creates an array for the string input 
   string_array = string.split(" ")
 
   string_array.each { |string| 
