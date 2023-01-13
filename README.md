@@ -12,4 +12,4 @@ Stockpicker: A method that takes an array of stock prices for each day and retur
   - Realized I had to converted array elements to integers before subtracing here `current_profit = stocks[sell_index].to_i - stocks[buy_index].to_i`
 
 Bubblesort: A method that takes an unsorted array and returns a sorted array using a bubblesort algorithm.
-  - 
+  - Used a pretty straight forward comparison and swap logic but I feel like there are probably more suitable methods that can do what I've written out in fewer lines of code
