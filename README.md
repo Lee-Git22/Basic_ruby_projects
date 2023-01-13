@@ -10,3 +10,6 @@ Substrings: A method that takes in a string and a dictionary (an array of valid 
 Stockpicker: A method that takes an array of stock prices for each day and returns a pair of days representing the best day to buy and sell for highest profits.
   - Used two loops to iterate over every index pairing to find the highest profit pairing
   - Realized I had to converted array elements to integers before subtracing here `current_profit = stocks[sell_index].to_i - stocks[buy_index].to_i`
+
+Bubblesort: A method that takes an unsorted array and returns a sorted array using a bubblesort algorithm.
+  - 
